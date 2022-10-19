@@ -1,0 +1,8 @@
+TIME,SUB/PUB,Topic,Payload
+2022-10-17 20:42:23.562,PUB,/front/door-1/system/status,"b'{""enabled"": true, ""frontdoors"": [{""id"": ""door-1"", ""enabled"": true}]}'"
+2022-10-17 20:42:34.788,SUB,/front/door/robot/wmr001/door/call,"b'{""id"": ""cad5f4a7-4e10-11ed-bf47-dcfb488dcda0"", ""block"": 1, ""building"": 204, ""floor"": 1, ""type"": 0}'"
+2022-10-17 20:42:34.797,PUB,/front/door/robot/wmr001/door/call/response,"b'{""id"": ""cad5f4a7-4e10-11ed-bf47-dcfb488dcda0"", ""block"": 1, ""building"": 204, ""floor"": 1, ""result"": 0}'"
+2022-10-17 20:42:40.693,SUB,/front/door/robot/wmr001/door/call,"b'{""id"": ""ce5b4966-4e10-11ed-8900-dcfb488dcda0"", ""block"": 1, ""building"": 204, ""floor"": 1, ""type"": 0}'"
+2022-10-17 20:42:40.708,PUB,/front/door/robot/wmr001/door/call/response,"b'{""id"": ""ce5b4966-4e10-11ed-8900-dcfb488dcda0"", ""block"": 1, ""building"": 204, ""floor"": 1, ""result"": 10}'"
+2022-10-17 20:42:46.232,PUB,/front/door-1/robot/wmr001/door/state,"b'{""block"": 1, ""building"": 204, ""floor"": 1, ""state"": 0}'"
+2022-10-17 20:42:49.109,PUB,/front/door-1/robot/wmr001/door/state,"b'{""block"": 1, ""building"": 204, ""floor"": 1, ""state"": 1}'"

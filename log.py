@@ -44,8 +44,8 @@ class Log_function:
 
         file_delay = now_e - self.file_open_time
         if file_delay > 600:
-            file_name = (str("Log\system_log_Door_%04d-%02d-%02d_%02d-%02d-%02d-%03d.csv" %
-                                  (now.tm_year, now.tm_mon, now.tm_mday, now.tm_hour, now.tm_min, now.tm_sec, now)))
+            file_name = (str("Log\system_log_Door_%04d-%02d-%02d_%02d-%02d-%02d.csv" %
+                                  (now.tm_year, now.tm_mon, now.tm_mday, now.tm_hour, now.tm_min, now.tm_sec)))
             self.file_path = os.path.join(self.exe_path, file_name)
             self.file_open_time = time.time()
 

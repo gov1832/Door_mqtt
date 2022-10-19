@@ -1,0 +1,5 @@
+TIME,SUB/PUB,Topic,Payload
+2022-10-17 20:53:03.269,PUB,/front/door-1/system/status,"b'{""enabled"": true, ""frontdoors"": [{""id"": ""door-1"", ""enabled"": true}]}'"
+2022-10-17 20:53:05.515,PUB,/front/door-1/robot/wmr001/door/state,"b'{""block"": 1, ""building"": 204, ""floor"": 1, ""state"": 0}'"
+2022-10-17 20:53:35.233,PUB,/front/door-1/robot/wmr001/door/state,"b'{""block"": 1, ""building"": 204, ""floor"": 1, ""state"": 0}'"
+2022-10-17 20:53:42.341,PUB,/front/door-1/robot/wmr001/door/state,"b'{""block"": 1, ""building"": 204, ""floor"": 1, ""state"": 0}'"
